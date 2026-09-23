@@ -22,6 +22,7 @@ public class Rental {
 	    System.out.println("Vehicle Number : " + vehicle.getVehicleNumber());
 	    System.out.println("Brand : " + vehicle.getBrand());
 	    System.out.println("Model : " + vehicle.getModel());
+	    System.out.println("Rate per Day : " + vehicle.getRentalRate());
 	    System.out.println("Rental Days : " + numberOfDays);
 	    System.out.println("Total Cost : " + totalCost);
 	    System.out.println("Status: "+vehicle.getStatus());

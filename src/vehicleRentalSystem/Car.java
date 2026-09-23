@@ -16,7 +16,7 @@ public class Car extends Vehicle {
 	 
 	 public void printVehicleDetails() {
 		 System.out.println("Vehicle Type :  Car");
-		 printVehicleDetails();
+		 super.printVehicleDetails();
 		 System.out.println("Number of Seats: "+numberOfSeats);
 		 System.out.println("Fuel Type: "+fuelType);
 		 

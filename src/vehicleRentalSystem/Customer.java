@@ -3,9 +3,9 @@ package vehicleRentalSystem;
 public class Customer {
   String customerId;
   String customerName;
-  int phoneNumber;
+  long phoneNumber;
   
-  Customer( String customerId,String customerName,int phoneNumber){
+  Customer( String customerId,String customerName,long phoneNumber){
 	  this.customerId=customerId;
 	  this.customerName=customerName;
 	  this.phoneNumber=phoneNumber;
@@ -19,15 +19,15 @@ public class Customer {
 	  return customerName;
   }
   
-  public int getPhoneNumber() {
+  public long getPhoneNumber() {
 	  return phoneNumber;
   }
   
-  public void getCustomerName(String name) {
+  public void setCustomerName(String name) {
 	  customerId=name;
   }
   
-  public void getPhoneNumber(int phone) {
+  public void setPhoneNumber(long phone) {
 	  phoneNumber=phone;
   }
   

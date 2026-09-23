@@ -17,7 +17,7 @@ public class Bike extends Vehicle {
 	 
 	 public void printVehicleDetails() {
 		 System.out.println("Vehicle Type :  Bike");
-		 printVehicleDetails();
+		 super.printVehicleDetails();
 		 System.out.println("Engine Capacity: "+engineCapacity);
 		 System.out.println("Helmet Avilablity : "+helmetAvailable);
 		 
