@@ -57,13 +57,6 @@ public class Gridbaglayout {
 		gbc.gridx=1;
 		gbc.gridy=3;
 		f.add(genderPanel,gbc);
-		
-		
-		
-		
-		
-		
-		
 		f.setVisible(true);
 	}
 
